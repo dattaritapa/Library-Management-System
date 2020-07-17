@@ -3,35 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="styles_login.css">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
-<form>
-    <h6>Log in as</h6>
 
-    <div class="user">
-        <button class="student btn">Student</button>
-        <button class="admin btn">Admin</button>
+    <div class="landingpage">
+
+        <div class="overlay">
+
+            <h1>WELCOME TO THE LIBRARY</h1>
+
+            <div class="menuarea">
+
+                <div class="admin">
+                    <h2>FOR&nbsp;&nbsp;ADMINISTRATORS</h2>
+                    <div class="btns">
+                        <input type="button" value="SIGNUP">
+                        <input type="button" value="LOGIN">
+                    </div>
+                </div>
+
+                <div class="student">
+                    <h2>FOR&nbsp;&nbsp;STUDENTS & FACULTIES</h2>
+                    <div class="btns">
+                        <input type="button" value="SIGNUP">
+                        <input type="button" value="LOGIN">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
     </div>
-    <h1><span>Enter</span> Details</h1>
-    <input placeholder="Email" type="Email"/>
-    <input placeholder="Full name" type="fullname"/>
-    <input placeholder="Identity Number" type="identitynumber"/>
-    <input placeholder="Username" type="username"/>
-    <input placeholder="Password" type="password"/>
-    <button class="btn">Sign Up</button>
-</form> 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(e){
-       $('h6').on('click',function(){
-       $('.user').stop().slideToggle();
-      });
-      })
-    </script>
 
 </body>
-</html>             
+</html>
