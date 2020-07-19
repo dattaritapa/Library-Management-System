@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: url("../images/dashboard.jpg") center fixed no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logout {
+    padding: 2% 2%;
+    float: right;
+}
+
+.logout input {
+    padding: 15px 15px;
+    border-radius: 18px;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.panel{
+    position: absolute;
+    top: 26%;
+    left: 18%;
+}
+
+.panelbtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.panelbtns input {
+    padding: 20px 20px;
+    border-radius: 18px;
+    margin-top: 6%;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover {
+    transform: scale(1.1    );
+    color: black;
+    font-size: large;
+    border: 2px white solid;
+    background-color: white;
+    font-weight: bolder;
+}
